@@ -20,7 +20,7 @@ body {
   gap: 1rem;
   min-height: 100vh;
   padding: 1rem;
-  background-image: url('media/background/background.jpg');
+  background-image: url('./media/background/background.jpg');
 }
 
 .leftside {
@@ -83,7 +83,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
 
-    mask-image: url("media/icons/allergy/wheat.svg");
+    mask-image: url("./media/icons/allergy/wheat.svg");
     mask-repeat: no-repeat;
     mask-size: contain;
     mask-position: center;
@@ -98,7 +98,7 @@ body {
     right: -4rem;
     transform: translateX(-50%);
 
-    mask-image: url("media/icons/allergy/wheat.svg");
+    mask-image: url("./media/icons/allergy/wheat.svg");
     mask-repeat: no-repeat;
     mask-size: contain;
     mask-position: center;
@@ -506,13 +506,13 @@ p.text {
 }
 
 .darkborder div:hover {
-    background: url("media/icons/allergy/block.svg") center/contain no-repeat;
+    background: url("./media/icons/allergy/block.svg") center/contain no-repeat;
     background-color: #333;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 .toggle {
-    background: url("media/icons/allergy/block.svg") center/contain no-repeat;
+    background: url("./media/icons/allergy/block.svg") center/contain no-repeat;
     background-color: #333;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
@@ -565,7 +565,7 @@ p.text {
   -webkit-appearance: none;
   border: 0;
   background: linear-gradient(90deg, gold calc(var(--val) / 5 * 100%), #ddd calc(var(--val) / 5 * 100%));
-  mask-image: url("media/icons/star/star.svg");
+  mask-image: url("./media/icons/star/star.svg");
   mask-size: contain;
   cursor: pointer;
   transition: all 0.3s ease;
