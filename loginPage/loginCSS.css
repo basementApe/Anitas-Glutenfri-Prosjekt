@@ -1,0 +1,111 @@
+/* Column container */
+.containerLogin
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.buttonLogin
+{
+    background-color: rgb(224, 208, 85);
+    border: 1px solid rgb(112, 112, 112);
+    /* thin border so rounding is visible */
+    border-radius: 8px;
+    /* slight rounding; use e.g. 4px–10px */
+    padding: 10px 16px;
+    /* spacing inside the select */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    transition: transform 150ms ease;
+    animation:opac 0.25s;
+}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.buttonLogin:hover
+{
+    transform: scale(1.05);
+}
+
+
+
+.inputLogin
+{
+    background-color: #ccc;
+    border: 1px solid rgb(112, 112, 112);
+    /* thin border so rounding is visible */
+    border-radius: 4px;
+    /* slight rounding; use e.g. 4px–10px */
+    padding: 6px 8px;
+    /* spacing inside the select */
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+     animation:opac 0.15s;
+}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.loginBackButton
+{
+    background-color: #cccccc00;
+    border: 0px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    width: 2rem;
+    height: auto;
+    transition: transform 250ms ease;
+    animation:opac 0.4s;
+}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.loginBackButton:hover
+{
+    transform: scale(1.05);
+}
+
+
+.loginBackButton img
+{
+    width: 2.5rem;
+    height: 2.5rem;       /* keep square or use auto for aspect */
+    object-fit: contain;   /* ensures it scales without distortion */
+}
+.loginBackButton:hover img
+{
+    transform: scale(1.1);
+    filter: grayscale(1) brightness(0.6) contrast(0.9);
+}
+
+.inputLoginFail
+{
+    font-family: "Metal Mania", system-ui;
+    font-size: 48px;
+    color: #702;
+}
+
+.loginPage_loggedIn
+{
+    font-size: 24px;
+    color: rgb(255, 247, 211);
+}
+
+.loginPage_register_btn
+{
+    background-color: rgb(137, 179, 60);
+    border: 1px solid rgb(112, 112, 112);
+    /* thin border so rounding is visible */
+    border-radius: 8px;
+    /* slight rounding; use e.g. 4px–10px */
+    padding: 10px 16px;
+    /* spacing inside the select */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    transition: transform 150ms ease;
+    animation:opac 0.25s;
+}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.loginPage_register_btn:hover
+{
+    transform: scale(1.05);
+}
+
