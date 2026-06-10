@@ -1,0 +1,42 @@
+
+
+Etter kundemøte 16.04.2026
+
+- Tydeliggjøre at kommentarer/review's er knyttet til spesifikke spisesteder.
+- Oppdatere navn på nettside til "Glutify".
+- Anita likte best den enkle fremsiden.
+- Få på plass Admin funksjoner.
+
+
+
+- page: admin or user/general
+    - admin; username + password
+
+- viewState / temp info
+    - city, region
+    - establishment type
+    - log activity:
+        - purple link after clicked
+        - stars/likes
+
+- store all reviews, including:
+    - product pictures
+    - type of establishment; cafe etc
+    - product type
+      - breakfast, lunch, dinner
+    - city, region
+    - username (w/o login)
+    - like amount
+
+- establishment:
+    - type
+    - pictures
+    - address
+    - contact info, phone etc
+    - average review score
+    - review amount
+    - link
+
+bigger back button, not red. top left
+fill stars
+align stars for  store
