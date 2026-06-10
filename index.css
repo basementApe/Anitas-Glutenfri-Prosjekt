@@ -7,7 +7,10 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #f8f5f0;
-  
+
+  background-image: url('/Anitas-Glutenfri-Prosjekt/media/background/background.jpg'); 
+  background-size: cover; 
+  background-position: center;
 }
 
 .container {
@@ -20,7 +23,7 @@ body {
   gap: 1rem;
   min-height: 100vh;
   padding: 1rem;
-  background-image: url('media/background/background.jpg');
+/*  background-image: url('media/background/background.jpg');*/
 }
 
 .leftside {
