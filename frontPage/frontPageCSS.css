@@ -1,0 +1,366 @@
+.fade-in
+{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.show
+{
+    opacity: 1;
+}
+
+.frontPage_logo
+{
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    color: #eee;
+    position: absolute;
+    animation: opac 0.175s;
+}
+
+
+.frontPage_cityList
+{
+    background-color: #ccc;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 22px;
+    appearance: none;
+    
+}
+
+.frontPage_cityList_btn
+{
+    background-color: #696969;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    width: 10rem;
+    border-radius: 1rem;
+
+}
+
+.frontPage_cityList_dropdown
+{
+    position: relative;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.frontPage_cityList_content
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.frontPage_cityList_content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.frontPage_cityList_content a:hover
+{
+    background-color: #ddd;
+    border-radius: 1rem;
+}
+
+.frontPage_cityList_dropdown:hover .frontPage_cityList_content
+{
+    display: block;
+}
+
+.frontPage_cityList_dropdown:hover .frontPage_cityList_btn
+{
+    background-color: #3f4442;
+}
+
+
+.frontPage_search_header
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    color: #eee;
+
+    display:flex;
+    transform: translate(5.5rem, 11rem);
+    animation: opac 0.25s;
+    
+}
+
+
+.frontPage_search_elements
+{
+    display:flex;
+    transform: translate(5rem, 12rem);
+    animation: opac 0.325s;
+}
+
+
+.frontPage_buttonSearch
+{
+    background-color: rgb(206, 194, 105);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    border-radius: 1rem;
+    width: 5rem;
+    margin-left: 0.3rem;
+}
+
+.frontPage_buttonSearch:hover
+{
+    background-color: rgb(255, 235, 120)
+}
+
+
+.frontPage_signInStatus
+{
+    font-size: 0.75rem;
+    color: #eee;
+    position: absolute;
+    border: 0px;
+    top: 1.75rem;
+    right: 4.25rem;
+    width: 6rem;
+    height: auto;
+}
+
+.frontPage_username
+{
+    color: #ff8;
+    position: absolute;
+    border: 0px;
+    top: 0rem;
+    right: -2rem;
+    width: 6rem;
+    height: auto;
+}
+
+
+.frontPage_loginIcon
+{
+    background-color: #00000000;
+    position: absolute;
+    border: 0px;
+    top: 0.8rem;
+    right: 1.9rem;
+    width: 2.4rem;
+    height: auto;
+
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    animation: opac 0.4s;
+    transition: transform 250ms ease;
+}
+
+@keyframes opac
+{
+    from
+    {
+        opacity: 0
+    }
+
+    to
+    {
+        opacity: 1
+    }
+}
+
+.frontPage_loginIcon:hover
+{
+    transform: scale(1.1);
+    filter: grayscale(1) brightness(0.6) contrast(0.9);
+}
+
+/* 
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+
+
+
+            .cssCityList
+            {
+                background-color: #ccc;
+                border: 1px solid rgb(112, 112, 112);
+                border-radius: 6px;
+                padding: 6px 8px;
+                font-size: 22px;
+                appearance: none;
+            }
+
+            .cityList_btn
+            {
+                background-color: #696969;
+                color: white;
+                padding: 16px;
+                font-size: 20px;
+                border: none;
+            }
+
+            .cityList_dropdown
+            {
+                position: relative;
+                display: inline-block;
+            }
+
+            .cityList_content
+            {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .cityList_content a
+            {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .cityList_content a:hover {background-color: #ddd;}
+
+            .cityList_dropdown:hover .cityList_content {display: block;}
+
+            .cityList_dropdown:hover .cityList_btn {background-color: #3f4442; }
+
+
+            .headerSearch
+            {
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 3rem;
+                color: #eeeeee;
+            }
+
+            .buttonSearch
+            {
+                background-color: rgb(206, 194, 105);
+                padding: 16px;
+                font-size: 20px;
+                border: none;
+            }
+            .buttonSearch:hover
+            {
+                background-color: rgb(255, 235, 120)
+            }
+
+
+            .logo_frontPage
+            {
+                display: flex;
+                max-width: 520px;
+                min-height: 8vh;
+                padding: 1rem;
+                height: calc(60vh - 2rem);
+                transform: translate(100px, 80px);
+
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 7rem;
+                color: #eee;
+                animation:opac 0.15s;
+            }@keyframes opac{from{opacity:0} to{opacity:1}}
+
+            .container_frontPage_all
+            {
+                background-image: url('/Anitas%20Glutenfri%20Prosjekt/media/background/background.jpg');
+            }
+            .container_frontPage_header
+            {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-items: center;
+                flex: 0 0 280px;
+                gap: 1rem;
+                max-width: 520px;
+                min-height: 8vh;
+                padding: 1rem;
+                height: calc(60vh - 2rem);
+                overflow-y: auto;
+
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 7rem;
+                color: #eee;
+            }
+            .container_frontPage
+            {
+                position: relative;
+                display: flex;
+                gap: 1rem;
+                padding: 1rem;
+                min-height: 100vh;
+            }
+
+            .topside_frontPage
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                flex: 0 10 280px;
+                background: #ffffff00;
+                border-radius: 1rem;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                padding: 2.5rem;
+                height: calc(50vh - 2rem);
+                overflow-y: auto;
+                transform: translate(120px, -480px);
+                animation:opac 0.25s;
+            }@keyframes opac{from{opacity:0} to{opacity:1}}
+
+            .searchElements
+            {
+                display:flex;
+                gap:0.5rem;
+                align-items:center;
+                animation:opac 0.4s;
+            }@keyframes opac{from{opacity:0} to{opacity:1}}
+
+
+
+            
+            .iconLogin
+            {
+                background-color: #00000000;
+                position: absolute;
+                border: 0px;
+                top: 0.8rem;
+                right: 1.9rem;
+                width: 2.4rem;
+                height: auto;
+
+                object-fit: cover;
+                display: block;
+                margin: 0;
+                animation:opac 0.4s;
+            }@keyframes opac{from{opacity:0} to{opacity:1}}
+            .iconLogin:hover img
+            {
+                transform: scale(1.1);
+                filter: grayscale(1) brightness(0.6) contrast(0.9);
+            } */
