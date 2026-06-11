@@ -18,18 +18,18 @@
                 /*HTML*/`
                         <div class="container">
                         <div class="leftside">
-                        <img class="backbutton" src="/Anitas%20Glutenfri%20Prosjekt/media/icons/corner/corner.svg">
+                        <img class="backbutton" src="media/icons/corner/corner.svg">
                         <a onclick="goBack()">
-                           <img class="backbuttonarrow" src="/Anitas%20Glutenfri%20Prosjekt/media/icons/corner/arrowback.svg" >
+                           <img class="backbuttonarrow" src="media/icons/corner/arrowback.svg" >
                            </a>
                                         <h1>${model.viewState.loginPage.username}</h1>
 
                             <div class="citySelectId">${model.data.cities[model.viewState.storeFrontPage.selectedCity].name}
                             <div class="dropdownCity" id="citySelectId"></div>
                             </div>
-                            <img class="hometab" src="/Anitas%20Glutenfri%20Prosjekt/media/icons/hometab/hometabv2.svg">
+                            <img class="hometab" src="media/icons/hometab/hometabv2.svg">
                             <a onclick="goHome()">
-                            <img class="hometabimg" src="/Anitas%20Glutenfri%20Prosjekt/media/icons/hometab/homeimg.svg">
+                            <img class="hometabimg" src="media/icons/hometab/homeimg.svg">
                             </a>
                             <h1>${storeId.info.storeName}</h5>
                             <div ><img class="pictureInfo" src="${storeId.info.pictures}"></div>
