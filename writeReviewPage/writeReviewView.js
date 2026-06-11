@@ -15,10 +15,10 @@
                            <div style="color:red; font-size: 40px" id="wrongInput"></div>
                            <h1>${storeId.info.storeName}</h1>
                            <div class="darkborder">
-                           <div onclick="toggleAllergy(this, 'vegan')"><img src="/Anitas%20Glutenfri%20Prosjekt/media/icons/allergy/vegan.svg"></div>
-                           <div onclick="toggleAllergy(this, 'milk')"><img src="/Anitas%20Glutenfri%20Prosjekt/media/icons/allergy/milk.svg"></div>
-                           <div onclick="toggleAllergy(this, 'nuts')"><img src="/Anitas%20Glutenfri%20Prosjekt/media/icons/allergy/nuts1.svg"></div>
-                           <div onclick="toggleAllergy(this, 'wheat')"><img src="/Anitas%20Glutenfri%20Prosjekt/media/icons/allergy/wheat.svg"></div>
+                           <div onclick="toggleAllergy(this, 'vegan')"><img src="media/icons/allergy/vegan.svg"></div>
+                           <div onclick="toggleAllergy(this, 'milk')"><img src="media/icons/allergy/milk.svg"></div>
+                           <div onclick="toggleAllergy(this, 'nuts')"><img src="media/icons/allergy/nuts1.svg"></div>
+                           <div onclick="toggleAllergy(this, 'wheat')"><img src="media/icons/allergy/wheat.svg"></div>
                            </div>
                            <input type="text" placeholder="Navn" class="nameInput" onchange="userReviewName(this.value)">
                            <div> <textarea placeholder="Skriv her"class="userReviewBox" onchange="userText(this.value)"></textarea> </div>
